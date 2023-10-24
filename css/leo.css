@@ -1,0 +1,350 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+
+.navbar{
+    background-color: rgb(51, 53, 69);
+    height: 70px;
+    display: flex;
+    margin: auto;
+    /* justify-content: space-around; */
+}
+.nav-left{
+    width: 60%;
+    padding-bottom:50px !important;
+    padding-left: 90px;
+}
+.nav-right{
+    width: 20%;
+    padding-right: 60px;
+    padding-bottom:50px !important;
+}
+
+
+.navbar img{
+    width: 17%;
+    margin-top: 8px;
+   
+}
+#nav-search{
+    margin-left: 15px;
+    font-family: Roboto,sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 400px 5px 0px;
+}
+#nav-search::placeholder{
+    padding: 5px 400px 5px 5px;
+    
+}
+
+
+.nav-right button{
+    margin-left: 10px;
+    background-color: rgb(248, 68, 100);
+    border: none;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: small;
+    padding: 4px 12px;
+    border-radius: 5px;
+    
+}
+.nav-right select{
+    border: none;
+    font-size: small;
+    font-family: Roboto,sans-serif;
+    background-color: transparent;
+    color: rgb(204, 204, 204);
+}
+.nav-right select:hover{
+    color: white;
+    transition: .2s;
+}
+.nav-right i{
+    color: rgba(255, 255, 255, 0.726);
+    margin-left: 19px;
+}
+
+/* second-nav */
+.second-nav{
+    height: 40px;
+    display: flex;
+    background-color: rgb(34, 37, 57);;
+}
+.secnav-left{
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+    width: 70%;
+    padding-top: 5px;
+}
+.secnav-left a{
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+  
+}
+
+
+.secnav-right{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+    padding-top: 5px;
+}
+.secnav-right a{
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: smaller;
+    color: white
+}
+/* /////// leo main back ///////// */
+.leo-back-main {
+    background-image: url(../images/Leo-banner-mai.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* filter: brightness(50%); */
+
+}
+.leo-full{
+    display: flex;
+    margin-left: 5%;
+}
+.leo-left img{
+    width: 60%;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.leo-left a{
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+    padding: 5px 83px;
+    margin-left: 30%;
+    text-decoration: none;
+} 
+  /* //////////// leo right  /////////// */
+.leo-right{
+    margin-top: 5%;
+}
+#head-leo h4{
+    font-size: 40px;
+    color: #fff;
+
+}
+#second-leo{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+   
+}
+#second-leo i{
+    color: rgb(202, 102, 9);
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#second-leo-part2{
+    font-size: 20px;
+}
+.right-third-main{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 450;
+}
+.right-main-sub{
+     padding: 10px 40px;
+     background-color: rgba(104, 103, 103, 0.509);
+     border-radius: 8px;
+
+}
+.right-third-main a{
+    background-color: rgb(244, 241, 241);
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 450;
+    border-radius: 8px;
+
+    
+}
+#button-rate{  
+    margin-left: 20px;
+}
+#rating{
+    color: #9c9292;
+    font-size: 18px;
+}
+.leo-right-links{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#links-only{
+    background-color: #fff;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+#links-only a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+#links-only a:hover{
+    text-decoration: underline;
+}
+ /* leo commmand in right ////// */
+ .leo-command{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    
+ }
+ .leo-right-button{
+    margin-left: 10px;
+    margin-top: 20PX;
+ }
+
+#btn{
+    background-color: rgb(227, 22, 90);
+    padding: 10px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+/* ////////// about ///// */
+.head-full{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: 650;
+  
+}
+.head-full p{
+    font-size: 15px;
+    font-weight: 450;
+
+}
+.border-only{
+    border: 0.4px solid rgb(224, 224, 224);
+    width: 60%;
+    margin-top: 20px;
+}
+ /* /////////////////////// cast part ///////////////////// */
+ .cast{
+    margin-left: 10%;
+    margin-top: 3%;
+ }
+ .cast h5{
+    font-size: 26px;
+ }
+ .images-cast{
+    display: flex;
+    /* gap: 2px; */
+    margin-top: 10px;
+    width: 70%;
+ }
+ .images-cast img{
+    border-radius: 100%;
+    width: 60%;
+ }
+ #vijay{
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 550;
+ }
+ /* ///////////////////// footer ////////////////////////////// */
+ .fsub1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 48, 53);
+    padding-left: 10px;
+    margin-top: 5%;
+   
+}
+.fsub-labels{
+    display: flex;
+    padding: 15px;
+
+}
+.fsub-labels p{
+    margin-left: 20px;
+}
+.fsub-labels h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fsub-heads{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.fsub1 button{
+    padding:0px 30px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(236, 94, 113);
+    color: white;
+    border: none;
+    border-radius: 3px;  
+}
+.fsub2{
+    background-color: rgb(65, 63, 63);
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.customer i{
+    color: rgba(255, 255, 255, 0.749);
+    margin-left: 45%;
+    font-size: 30px;
+}
+.customer h6{
+    font-size: 12px;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.749);
+
+}
+.logo{
+    background-color: rgb(49, 48, 53);
+    /* position: relative; */
+}
+.logo img{
+    padding: 50px;
+    /* position: absolute; */
+    margin-left: 41%;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+   
+}
+.icons i{
+    font-size: 30px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.315);
+}
+.icons i:hover{
+    color: white;
+}
+.bottom-label p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.315);
+    font-size: smaller;
+}
+ /* ///////////////////////////// footer complete ///////////////// */
